@@ -1,0 +1,81 @@
+body {
+  padding-top: 56px;
+  overflow-x: scroll;
+}
+
+.content {
+  max-width: 1980px;
+  margin: auto;
+  padding: 0;
+}
+
+.header-bg {
+  background-color: rgb(21, 21, 21);
+}
+
+
+.navbar-logo {
+  width: 150px;
+}
+
+.header-contact {
+  margin: 5px 0;
+  padding: 0;
+}
+
+.card {
+  height: 100px;
+}
+
+
+.card-cover {
+  width: 100%;
+
+  max-height: 510px;
+
+}
+
+header {
+  background-image: url("../img/header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 468px;
+}
+
+.bg-color {
+  background-color: black;
+}
+
+.fab {
+  font-size: 30px;
+  margin: 5px 5px
+}
+
+
+
+.fb {
+  color: #3b5998
+}
+
+.ig {
+  color: rgb(175, 7, 153);
+}
+
+.yt {
+  color: #c4302b
+}
+
+.main {
+  margin: 25px auto;
+}
+
+.container-video {
+  max-width: 730px;
+  margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+  .container-video {
+    max-width: 390px;
+  }
+}
